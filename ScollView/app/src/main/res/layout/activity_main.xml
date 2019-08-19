@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    <TextView
+            android:text="Batch 6 SectionC"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"/>
+    <ScrollView
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/img1" android:id="@+id/imageView2"/>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" app:srcCompat="@drawable/img" android:id="@+id/imageView"/>
+            <TextView
+                    android:textSize="20sp"
+
+                    android:text="Txt msg redirects here. For the TV series, see Pop-Up Video.
+
+A text message as it appears on the display screen of an iPhone before iOS 7.
+Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer. Text messages may be sent over a cellular network, or may also be sent via an Internet connection.
+
+The term originally referred to messages sent using the Short Message Service (SMS). It has grown beyond alphanumeric text to include multimedia messages (known as MMS) containing digital images, videos, and sound content, as well as ideograms known as emoji (happy faces, sad faces, and other icons).
+
+As of 2017, text messages are used by youth and adults for personal, family, business and social purposes. Governmental and non-governmental organizations use text messaging for communication between colleagues. In the 2010s, the sending of short informal messages has become an accepted part of many cultures, as happened earlier with emailing.[1] This makes texting a quick and easy way to communicate with friends, family and colleagues, including in contexts where a call would be impolite or inappropriate (e.g., calling very late at night or when one knows the other person is busy with family or work activities). Like e-mail and voicemail, and unlike calls (in which the caller hopes to speak directly with the recipient), texting does not require the caller and recipient to both be free at the same moment; this permits communication even "
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <!--<ScrollView-->
+            <!--android:fillViewport="true"-->
+            <!--android:background="#6C7F6C"-->
+            <!--android:layout_width="429dp"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--<LinearLayout android:layout_width="match_parent"-->
+                      <!--android:layout_height="match_parent"-->
+                      <!--android:orientation="vertical">-->
+            <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_marginTop="-300dp"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/imageView4"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-400dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img" android:id="@+id/imageView5"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-100dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img9"/>-->
+            <!--<ImageView-->
+
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-300dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img2"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-600dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img3"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-400dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img4"/>-->
+
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-400dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img6"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-400dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img7"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-400dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/image5"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-500dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img10"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginTop="-500dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/img5"/>-->
+
+
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+    <!--<HorizontalScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:fillViewport="true"-->
+            <!--android:layout_height="match_parent">-->
+        <!--<LinearLayout android:layout_width="match_parent"-->
+                      <!--android:layout_height="wrap_content"-->
+                      <!--android:orientation="horizontal">-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-200dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="465dp" app:srcCompat="@drawable/img8" android:id="@+id/imageView6"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-350dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/pic5" android:id="@+id/imageView"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-300dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/pic7" android:id="@+id/imageView2"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-100dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="465dp" app:srcCompat="@drawable/pic8" android:id="@+id/imageView3"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-200dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/pic1" android:id="@+id/imageView4"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-350dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" app:srcCompat="@drawable/image4" android:id="@+id/imageView5"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-300dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent" app:srcCompat="@drawable/pic6" android:id="@+id/imageView7"-->
+                    <!--android:layout_weight="1"/>-->
+            <!--<ImageView-->
+                    <!--android:layout_marginLeft="-200dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="465dp" app:srcCompat="@drawable/pic" android:id="@+id/imageView0"-->
+                    <!--android:layout_weight="1"/>-->
+
+
+        <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+</LinearLayout>
